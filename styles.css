@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+#container {
+    max-width: 100%;
+    padding: 20px;
+}
+
+#flower-image {
+    margin-top: 350px;
+    max-width: 100%;
+    height: auto;
+}
+
+#login {
+    background-color: yellow;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+@media screen and (max-width: 600px) {
+    #container {
+        padding: 10px;
+    }
+
+    #flower-image {
+        margin-top: 0px;
+        width: 100%;
+    }
+}

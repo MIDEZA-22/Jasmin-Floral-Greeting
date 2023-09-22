@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jasmin Floral Greeting</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="login">
+            <h1>Bienvenida Jasmin</h1>
+            <hr>
+            <br>
+            <input type="password" id="password" placeholder="Contraseña">
+            <div id="password-hint" style="display: none;">
+                <p><b>Pista:</b> Empieza con la letra "L".</p>
+            </div>
+            <p>
+                <button onclick="checkPassword()">Ingresar</button>
+            </p>
+        </div>
+        <div id="flower" style="display: none;">
+            <img src="img/flor-amarilla.png" alt="Flor Amarilla" id="flower-image">
+            <br>
+            <div id="flower-description">
+                <p>
+                    <b>¡Vaya, vaya, JASMIN!</b>
+                </p>
+                <br>
+                <p>
+                    En primer lugar, quiero comenzar con una sincera disculpa por la tardanza en mi mensaje. 
+                    Pero como dicen por ahí, "mejor tarde que nunca", ¿verdad?. 😅
+                </p>
+                <p>
+                    Ahora, hablemos de la estrella del día: tú. En este Día de la Flor Amarilla, no puedo 
+                    evitar pensar que eres como una flor amarilla en un campo lleno de jazmines ordinarios. 
+                    Eres única y brillante, y siempre alegras mi día.
+                </p>
+                <p>
+                    El poco tiempo que te he conocido es como una flor que ha estado floreciendo a lo largo 
+                    de este tiempo, y cada día que pasa, mi aprecio por ti crece un poquito más. ¿Qué puedo 
+                    decir? Me tienes encantado con tu alegría y tu personalidad radiante.
+                </p>
+                <p>
+                    Así que aquí estoy, disculpándome por la tardanza, pero también recordándote cuánto valoro
+                    tu persona y, bueno, quizás permitiendo que mis pensamientos se aventuren un poco más allá. 😉
+                </p>
+                <br>
+                <p>
+                    ¡Feliz Día de la Flor Amarilla, JASMIN!
+                </p>
+                <br>
+                <p>
+                    <b>Con cariño,</b>
+                </p>
+                    <b>Mijail</b>
+                <p>
+                <br>
+            </div>
+            <button onclick="logout()">Salir</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
